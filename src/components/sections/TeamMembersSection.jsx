@@ -15,8 +15,8 @@ import React, { useState } from 'react';
       },
       {
         name: 'Ashish Soni',
-        title: 'With a strong understanding of the target audience, he utilizes innovative techniques to attract and engage potential users.',
-        intro: 'Founder member and Passionate Coder ',
+        title: 'Founder member and Passionate Coder ',
+        intro: 'With a strong understanding of the target audience, he utilizes innovative techniques to attract and engage potential users.',
         image: '/images/ashish.jpg',
         social: {
           instagram: 'https://www.instagram.com/ashishxsoni/#',
