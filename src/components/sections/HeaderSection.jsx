@@ -37,21 +37,21 @@ import React, { useState, useRef } from 'react';
       };
 
       return (
-        <header className={`text-center py-24 px-4 mt-16 ${className} flex items-center justify-center h-[calc(100vh-4rem)] relative overflow-hidden transition-opacity duration-500`}>
+        <header className={`text-center py-12 px-4 mt-8 ${className} flex items-center justify-center h-[calc(100vh-4rem)] relative overflow-hidden transition-opacity duration-500`}>
           <div className="max-w-3xl z-10">
-            <h1 className="text-6xl font-bold mb-6">
+            <h1 className="text-5xl font-bold mb-4">
               CodeX
               <span className="inline-block w-4"></span>
               <span className="text-blue-500">Network</span>
             </h1>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-8">
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-6">
               Your comprehensive resource hub for B.Tech students - from study materials to career opportunities.
             </p>
-            <div className="flex justify-center space-x-4 mb-8">
+            <div className="flex justify-center space-x-4 mb-6">
               <Link to="/internships" className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-200">
                 Explore Internships
               </Link>
-              <Link to="/careers" className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-200">
+              <Link to="/careers" className="px-6 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors duration-200">
                 Explore Careers
               </Link>
             </div>

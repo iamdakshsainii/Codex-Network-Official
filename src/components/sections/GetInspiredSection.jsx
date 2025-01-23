@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
     import { Link } from 'react-router-dom';
 
     function GetInspiredSection({ className }) {
+      const [videoHeights, setVideoHeights] = useState({});
       const videos = [
         {
           id: 'SLAM7iPwiQY',
@@ -19,9 +20,27 @@ import React from 'react';
         },
       ];
 
+      useEffect(() => {
+        const calculateHeights = async () => {
+          const heights = {};
+          for (const video of videos) {
+            const img = new Image();
+            img.src = video.thumbnail;
+            await new Promise((resolve) => {
+              img.onload = () => {
+                heights[video.id] = img.height;
+                resolve();
+              };
+            });
+          }
+          setVideoHeights(heights);
+        };
+        calculateHeights();
+      }, [videos]);
+
       return (
-        <section id="get-inspired" className={`container mx-auto px-4 mb-16 ${className} transition-opacity duration-500`}>
-          <h2 className="text-4xl font-bold text-center mb-8">Get Inspired</h2>
+        <section id="get-inspired" className={`container mx-auto px-4 mb-12 ${className} transition-opacity duration-500`}>
+          <h2 className="text-3xl font-bold text-center mb-8">Get Inspired</h2>
           <p className="text-gray-400 text-center mb-12">
             Watch these inspiring stories from fellow students and get motivated to achieve your goals.
           </p>
@@ -31,7 +50,7 @@ import React from 'react';
                 key={video.title}
                 className="bg-gray-800/50 backdrop-blur-sm rounded-lg border border-blue-500/20 p-4 hover:shadow-[0_0_8px_3px_rgba(0,0,255,0.3)] hover:scale-102 transition-all duration-300 glow-card cursor-pointer transform hover:-translate-y-1 flex flex-col"
               >
-                <div className="relative overflow-hidden mb-4" style={{height: '180px'}}>
+                <div className="relative overflow-hidden mb-4" style={{height: videoHeights[video.id] || '180px'}}>
                   <img src={video.thumbnail} alt={video.title} className="w-full h-full object-fit" loading="lazy" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{video.title}</h3>

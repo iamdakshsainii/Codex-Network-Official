@@ -76,14 +76,14 @@ import React from 'react';
       ];
 
       return (
-        <section id="careers" className={`container mx-auto px-4 mb-16 ${className} transition-opacity duration-500`}>
-          <h2 className="text-4xl font-bold text-center mb-12">Career Paths</h2>
+        <section id="careers" className={`container mx-auto px-4 mb-12 ${className} transition-opacity duration-500`}>
+          <h2 className="text-3xl font-bold text-center mb-6">Career Paths</h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {careerPaths.slice(0, 3).map((career) => (
               <Link
                 key={career.title}
                 to={`/careers/${career.title.toLowerCase().replace(/ /g, '-')}`}
-                className="group p-6 bg-gray-800/50 backdrop-blur-sm rounded-lg border border-blue-500/20 hover:border-blue-500/50 transition-all duration-300 hover:-translate-y-1 block"
+                className="group p-4 bg-gray-800/50 backdrop-blur-sm rounded-lg border border-blue-500/20 hover:border-blue-500/50 transition-all duration-300 hover:-translate-y-1 block"
               >
                 <div className="flex items-center space-x-4 mb-4">
                   <h3 className="text-xl font-semibold group-hover:text-blue-400">{career.title}</h3>
