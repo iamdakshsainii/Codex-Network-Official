@@ -53,11 +53,6 @@ import React from 'react';
                 </p>
               </div>
             </div>
-            <div className="mt-8">
-              <p className="text-gray-400 text-sm">
-                &copy; {new Date().getFullYear()} CodeX Network. All Rights Reserved.
-              </p>
-            </div>
           </div>
         </footer>
       );

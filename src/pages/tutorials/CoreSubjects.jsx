@@ -7,7 +7,7 @@ import React from 'react';
         heading: 'Database Management Systems',
         subheading: 'Explore the world of databases and data management.',
         description: 'Learn about relational databases, SQL, NoSQL, and database design principles.',
-        image: 'https://images.unsplash.com/photo-1579546929662-711aa81148cf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://www.nilebits.com/wp-content/uploads/2022/09/How-To-Choose-The-Right-Database-For-Your-Application.png',
         link: '/tutorials/dbms',
         color: 'bg-teal-500',
         syllabus: [

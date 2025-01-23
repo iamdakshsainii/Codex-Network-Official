@@ -48,10 +48,10 @@ import React, { useState, useRef } from 'react';
               Your comprehensive resource hub for B.Tech students - from study materials to career opportunities.
             </p>
             <div className="flex justify-center space-x-4 mb-8">
-              <Link to="/internships" className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors duration-200">
+              <Link to="/internships" className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-200">
                 Explore Internships
               </Link>
-              <Link to="/careers" className="px-6 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors duration-200">
+              <Link to="/careers" className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-200">
                 Explore Careers
               </Link>
             </div>
