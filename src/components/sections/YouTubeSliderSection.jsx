@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
     import YouTubeModal from '../YouTubeModal';
     import { ChevronLeft, ChevronRight } from 'lucide-react';

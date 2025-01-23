@@ -61,7 +61,7 @@ import React from 'react';
           title: 'MLH Local Hack Day',
           date: 'December 2024',
           description: 'MLH Local Hack Day is a global celebration of learning, building, and sharing. Join thousands of students around the world for a day of hacking, workshops, and fun.',
-          image: 'https://mlh.io/assets/local-hack-day/local-hack-day-share-image-1200x630-01-9999999999999999999999999999999999999999999999999999999999999999.png',
+          image: 'https://th.bing.com/th/id/OIP.i2KYnZdI75Zj96AbRmkCvgHaDt?rs=1&pid=ImgDetMain',
           registrationLink: 'https://localhackday.mlh.io/',
           location: 'Various Locations',
           category: 'Hackathon'
@@ -70,7 +70,7 @@ import React from 'react';
           title: 'CodeChef SnackDown',
           date: 'June 2025',
           description: 'CodeChef SnackDown is a global programming competition. Compete with the best programmers from around the world and win exciting prizes.',
-          image: 'https://blog.codechef.com/wp-content/uploads/2023/02/SnackDown-2023-Blog-Banner-1024x576.png',
+          image: 'https://th.bing.com/th/id/OIP.i2KYnZdI75Zj96AbRmkCvgHaDt?rs=1&pid=ImgDetMain',
           registrationLink: 'https://www.codechef.com/snackdown',
           location: 'Virtual',
           category: 'Coding Competition'

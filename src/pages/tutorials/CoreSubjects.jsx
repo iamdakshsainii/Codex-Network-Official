@@ -33,7 +33,7 @@ import React from 'react';
         heading: 'Operating Systems',
         subheading: 'Understand the core principles of operating systems.',
         description: 'Dive into process management, memory management, file systems, and system calls.',
-        image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://pcdonline.ie/wp-content/uploads/2022/02/Operating-System.jpg',
         link: '/tutorials/operating-systems',
         color: 'bg-indigo-500',
         syllabus: [
@@ -59,7 +59,7 @@ import React from 'react';
         heading: 'Software Engineering',
         subheading: 'Learn the principles and practices of software development.',
         description: 'Explore software development methodologies, design patterns, testing, and deployment.',
-        image: 'https://images.unsplash.com/photo-1517694712202-14f9bb417966?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://img.freepik.com/premium-vector/word-cloud-background-concept-software-engineering-computer-programming-system-cloud-technology-development-application-management-vector-illustration_616200-4834.jpg?w=740',
         link: '/tutorials/software-engineering',
         color: 'bg-pink-500',
         syllabus: [
@@ -85,7 +85,7 @@ import React from 'react';
         heading: 'Computer Networks',
         subheading: 'Explore the fundamentals of computer networking and protocols.',
         description: 'Understand network topologies, protocols, routing, and network security.',
-        image: 'https://images.unsplash.com/photo-1517694712202-14f9bb417966?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://i.ytimg.com/vi/1RyuSTamvj8/maxresdefault.jpg',
         link: '/tutorials/computer-networks',
         color: 'bg-lime-500',
         syllabus: [
@@ -111,7 +111,7 @@ import React from 'react';
         heading: 'Algorithms',
         subheading: 'Master essential algorithms for problem-solving.',
         description: 'Learn about sorting, searching, graph algorithms, dynamic programming, and more.',
-        image: 'https://images.unsplash.com/photo-1555066931-436540b54cb9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        image: 'https://qsstudy.com/wp-content/uploads/2019/01/Algorithm-1.jpg',
         link: '/tutorials/algorithms',
         color: 'bg-orange-500',
         syllabus: [

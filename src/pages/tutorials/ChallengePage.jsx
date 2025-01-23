@@ -61,9 +61,6 @@ import React from 'react';
       'quiz-app': {
         component: QuizAppPage,
       },
-      'ecommerce-product-filter': {
-        component: EcommerceProductFilterPage,
-      },
       'expense-tracker': {
         component: ExpenseTrackerPage,
       },
