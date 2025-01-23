@@ -6,7 +6,7 @@ import React, { useState } from 'react';
         name: 'Daksh Saini',
         title: 'Founder & Developer',
         image: '/images/founder.jpg',
-        intro: 'The driving force behind Codex Network, dedicated to providing valuable updates on internships, fests, events, and study materials. With a passion for empowering students and young professionals, Implements innovative strategies and developing webiste to connect users with essential resources.',
+        intro: 'With a passion for empowering students and young professionals, Implements innovative strategies and developing webiste to connect users with essential resources.',
         social: {
           instagram: 'https://www.instagram.com/dakshsainii/',
           linkedin: 'https://www.linkedin.com/in/dakshsainii/',
@@ -17,6 +17,7 @@ import React, { useState } from 'react';
         name: 'Ashish Soni',
         title: 'With a strong understanding of the target audience, he utilizes innovative techniques to attract and engage potential users.',
         intro: 'Founder member and Passionate Coder ',
+        image: '/images/ashish.jpg',
         social: {
           instagram: 'https://www.instagram.com/ashishxsoni/#',
           linkedin: 'https://www.linkedin.com/in/ashishxsoni/',
@@ -27,7 +28,7 @@ import React, { useState } from 'react';
         name: 'Saurabh Yadav',
         title: 'Social Media Manager & Marketing head',
         image: '/images/saurabh.jpg',
-        intro: 'Voice of Codex Network on social media, crafting engaging content that resonates with students and young professionals. With a keen eye for trends and a deep understanding of the target audience, he develops and implements social media strategies that drive brand awareness, foster community engagement, and promote updates ',
+        intro: 'Crafting engaging content that resonates with students and young professionals. With a keen eye for trends and a deep understanding of the target audience, he develops and implements social media strategies that drive brand awareness and promote updates ',
         social: {
           instagram: 'https://www.instagram.com/thesaurabhyadavv',
           linkedin: 'https://www.linkedin.com/in/saurabh-yadav-5301381b2',
@@ -38,7 +39,7 @@ import React, { useState } from 'react';
         name: 'Vishakha Mishra',
         title: 'Manager & Content Writer',
         image: '/images/vishaka.jpg',
-        intro: 'She is a vital part of our team at Codex Network, bringing her expertise in digital marketing and content creation. With a passion for storytelling and a keen eye for detail, she plays a key role in developing engaging content that resonates with our audience. ',
+        intro: 'Bringing her expertise in digital marketing and content creation. With a passion for storytelling and a keen eye for detail, she plays a key role in developing engaging content that resonates with our audience. ',
         social: {
           instagram: 'https://www.instagram.com/itz_vishakha_24/',
           linkedin: 'https://www.linkedin.com/in/vishakha-mishra-54b62a258',
@@ -49,7 +50,7 @@ import React, { useState } from 'react';
         name: 'Tanishka Singh',
         title: 'Technical & PR Head',
         image: '/images/tanishka.jpg',
-        intro: 'She is an integral part of Codex Network, leveraging her expertise in public relations to enhance our brand visibility. With a knack for building strong media relationships, she ensures our message reaches the right audience.',
+        intro: 'Leveraging her expertise in public relations to enhance our brand visibility. With a knack for building strong media relationships, ensures our message reaches the right audience.',
         social: {
           instagram: null,
           linkedin: 'https://www.linkedin.com/in/tanishka-singh-5b34252ba',
@@ -60,7 +61,7 @@ import React, { useState } from 'react';
         name: 'Rohit Yadav',
         title: 'Event Organiser',
         image: '/images/rohit.jpg',
-        intro: 'Expertly coordinating internships, fests, and educational gatherings. With a passion for creating memorable experiences, he manages logistics and engages with participants to ensure every event runs smoothly. ',
+        intro: 'Expertly coordinating internships, fests, and educational gatherings. With a passion for creating memorable experiences, manages logistics and engages with participants to ensure every event runs smoothly.',
         social: {
           instagram: 'https://www.instagram.com/rohit.ayadav/',
           linkedin: 'https://www.linkedin.com/in/rohit-kumar-yadav-7b5805250/',
